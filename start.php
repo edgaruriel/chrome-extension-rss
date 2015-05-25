@@ -32,7 +32,7 @@ foreach($items as $item){
 	array_push($news, $feed);
 }
 
-
+echo json_encode($news);
 return $news;
 
 function getDateFormat($dateTimeStamp){
